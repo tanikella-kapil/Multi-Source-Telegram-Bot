@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 # Set up API keys from environment variables
 google_api_key = os.getenv("GOOGLE_API_KEY")  # Get Google API key
 google_cx = os.getenv("GOOGLE_CX_ID")         # Get Google Custom Search Engine ID
-telegram_token = "8034733271:AAHqMggvR67L8MDdQ91xoycejUh9FFfHGIA"  # without extra quotes
+telegram_token = "token_id"  # without extra quotes
 openai_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))  # Initialize OpenAI client with your API key
 
 # Configure Google Gemini API key
